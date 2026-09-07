@@ -31,7 +31,7 @@ If step 1 fails (the asset read errors), the skill is loaded but its files are n
 Before reading the ground-truth files, verify the installed skill is current. Run this check once per session.
 
 1. Read the local `VERSION` file at the skill root.
-2. Fetch the latest from `https://raw.githubusercontent.com/rebrained-de/Reeinvent-Pitch-Deck-Designer/main/VERSION`.
+2. Fetch the latest from `https://raw.githubusercontent.com/rebrainedagency/Reeinvent-Deck-Designer/main/VERSION`.
 3. Compare trimmed strings.
 4. **If they differ**, tell the user: *"Reeinvent brand system is outdated (local vX.Y.Z, latest vA.B.C). Pull or reinstall before continuing."* Wait for the user's decision - do not continue applying rules that may have been superseded.
 5. **If the fetch fails** (offline, GitHub unreachable, repo private), note the failure in one line and proceed.
