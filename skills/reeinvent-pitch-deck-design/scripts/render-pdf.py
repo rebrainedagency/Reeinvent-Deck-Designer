@@ -77,7 +77,7 @@ def inject_page_size(html_path: Path, width: int, height: int) -> Path:
     """Return a path to a sibling HTML file with @page size injected.
 
     The new file lives in the same directory as the input so relative
-    asset paths (Reeinvent-Pitch-Deck-Designer/skills/.../*.svg) resolve
+    asset paths (Reeinvent-Deck-Designer/skills/.../*.svg) resolve
     correctly when Chrome loads it.
     """
     raw = html_path.read_text(encoding="utf-8")

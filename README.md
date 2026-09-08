@@ -28,7 +28,7 @@ Pick the version of Claude you use. You only need to install once.
 
 ### Install for Cowork
 
-1. Download the latest skill ZIP from the [GitHub releases page](https://github.com/rebrained-de/Reeinvent-Pitch-Deck-Designer/releases/latest). Look for the file named `reeinvent-pitch-deck-design-X.Y.Z.zip` under "Assets."
+1. Download the latest skill ZIP from the [GitHub releases page](https://github.com/rebrainedagency/Reeinvent-Deck-Designer/releases/latest). Look for the file named `reeinvent-pitch-deck-design-X.Y.Z.zip` under "Assets."
 2. Open Cowork. Go to **Settings → Capabilities → Skills**.
 3. Click **Create skill** and upload the ZIP.
 4. Quit Cowork and reopen it once.
@@ -39,7 +39,7 @@ Done.
 
 ### Install for Claude Desktop
 
-1. Download the latest skill ZIP from the [GitHub releases page](https://github.com/rebrained-de/Reeinvent-Pitch-Deck-Designer/releases/latest). Look for the file named `reeinvent-pitch-deck-design-X.Y.Z.zip` under "Assets."
+1. Download the latest skill ZIP from the [GitHub releases page](https://github.com/rebrainedagency/Reeinvent-Deck-Designer/releases/latest). Look for the file named `reeinvent-pitch-deck-design-X.Y.Z.zip` under "Assets."
 2. Open the Claude Desktop app. Go to **Settings → Capabilities → Skills**.
 3. Click **Create skill** and upload the ZIP.
 4. Quit the app (Cmd-Q on Mac, right-click → Exit on Windows) and reopen it.
@@ -51,7 +51,7 @@ Done.
 In your terminal, paste these two lines, one at a time:
 
 ```
-/plugin marketplace add rebrained-de/Reeinvent-Pitch-Deck-Designer
+/plugin marketplace add rebrainedagency/Reeinvent-Deck-Designer
 ```
 
 ```
@@ -98,7 +98,7 @@ When Rebrained releases an update, here's how to refresh your install.
 
 ### Update on Cowork or Claude Desktop
 
-1. Download the latest ZIP from the [GitHub releases page](https://github.com/rebrained-de/Reeinvent-Pitch-Deck-Designer/releases/latest).
+1. Download the latest ZIP from the [GitHub releases page](https://github.com/rebrainedagency/Reeinvent-Deck-Designer/releases/latest).
 2. Open **Settings → Capabilities → Skills**.
 3. Delete the existing `reeinvent-pitch-deck-design` entry.
 4. Upload the new ZIP.
@@ -174,7 +174,7 @@ You don't need to touch any of this. It's listed in case you're ever curious wha
 If the Claude Code plugin marketplace isn't reachable (offline, restricted network), clone the repo and copy the skill folder into your Claude Code skills directory:
 
 ```bash
-git clone https://github.com/rebrained-de/Reeinvent-Pitch-Deck-Designer.git ~/Documents/Reeinvent-Brand
+git clone https://github.com/rebrainedagency/Reeinvent-Deck-Designer.git ~/Documents/Reeinvent-Brand
 mkdir -p ~/.claude/skills
 cp -R ~/Documents/Reeinvent-Brand/skills/reeinvent-pitch-deck-design ~/.claude/skills/
 ```
